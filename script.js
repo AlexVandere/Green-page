@@ -3,14 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const openBtn = document.querySelector('.burger-btn');
   const closeBtn = document.querySelector('.burger-menu-btn');
 
-  console.log('burger:', burger);
-  console.log('openBtn:', openBtn);
-  console.log('closeBtn:', closeBtn);
 
-  if (!burger || !openBtn || !closeBtn) {
-    console.log('Щось не знайшлося по класу. Перевір назви класів у HTML.');
-    return;
-  }
 
   openBtn.addEventListener('click', () => {
     burger.classList.add('is-open');
@@ -20,3 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
     burger.classList.remove('is-open');
   });
 });
+ const a = '12l'
+const nuUser = 12
+console.log(nuUser=== a)
